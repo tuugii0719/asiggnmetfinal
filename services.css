@@ -1,0 +1,263 @@
+/*footer & header*/
+
+.footer .container::before{
+    content: " ";
+    position: absolute;
+    background-color: orange;
+    border-top-right-radius: 15px;
+    width: 2vw;
+    height: 6vw;
+    left:0;
+    bottom: 0;
+}
+.footer .container::after{
+    content: " ";
+    position: absolute;
+    background-color: orange;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px ;
+    width: 2vw;
+    height: 12vw;
+    right:0;
+    bottom: 100px;
+}
+.footer{
+    position: relative;
+}
+.main-nav li{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+.footer{
+    background-color: #063255;
+    color: white;
+    padding-top: 30px;
+}
+.footer a{
+    color: white;
+
+}
+.footer .col-2{
+    flex-basis: 180px;
+}
+.footer{
+    min-height: 40vh;
+}
+.footer p{
+    margin: 5px 0;
+}
+.footer .teh{
+    background-color: white;
+    padding: 3px 50px 3px 30px;
+    color: grey;
+    flex-grow: 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 250px;
+}
+.footer .sbscrb{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    width: 100px;
+}
+.footer h3{
+    font-size: 24px;
+}
+.foooter .row{
+    justify-content: space-between;
+}
+.foooter{
+    margin-top: 100px;
+}
+
+.foooter .row .col-2{
+    width: fit-content;
+    flex:0 300px;
+}
+.footer .box .container::after{
+        content: " ";
+        position: relative;
+        background-color: orange;
+        width: 50px;
+        height: 100px;
+        left:0;
+        bottom: 0;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin:0;
+    font-family: "poppins";
+}
+.col-3{
+    flex: 1 400px;
+    width: calc(100% / 3 - 40px);
+}
+.col-2{
+    width: calc(100% / 2 - 40px);
+    flex: 1 400px;
+}
+.section{
+
+    margin: 70px 0;
+}
+.bg-color{
+    background-color: #DCEAF5;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.Menu{
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+    align-items: center;
+    list-style: none;
+}
+.Menu li{
+    margin-left: 20px;
+}
+.Cta{
+    background-color: rgb(251, 232, 197);
+    color: orange;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/*Services*/
+.body img{
+    width: 100%;
+    border-radius: 25px;
+    height: 100%
+}
+.body .row{
+    margin: 40px 0;
+}
+.col-2{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+h2{
+    font-size: 64px;
+    line-height: 100%;
+    font-weight: 700;
+}
+h3{
+    font-size: 48px;
+    line-height: 100%;
+}
+.body a{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    margin-top: 30px;
+}
+.body .left::after{
+    content: " ";
+    position: absolute;
+    background-color: orange;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    opacity: 0.8;
+    width: 25%;
+    height: 100%;
+    left:0;
+    top: 0;
+}
+.body .cl::after{
+    content: " ";
+    position: absolute;
+    background-color: #F58A07;
+    border-radius: 25px;
+    opacity: 0.8;
+    width: 100px;
+    height: 100px;
+    left: -50px;
+    top: 40%;
+}
+.body .cr::after{
+    content: " ";
+    position: absolute;
+    background-color: #F58A07;
+    border-radius: 25px;
+    opacity: 0.8;
+    width: 100px;
+    height: 100px;
+    right: -50px;
+    top: 40%;
+
+}
+/*Greetings*/
+.ceopicture img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    float: left;
+}
+.ceodscrptn{
+    margin-left: 65px;
+}
+.gol{
+    margin: auto;
+}
+.Greetings .col-2 img{
+    margin: auto;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+}
+.ceodscrptn p{
+    margin: 0;
+}
+.ceodscrptn .name{
+    font-weight: bold;
+}
+.ceodscrptn .position{
+    color: orange;
+}
+.Greetings h3{
+    font-size: 48px;
+}
+.playbtn img{
+    position: relative;
+    top: -70px;
+    left: 30px; 
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+      }
+.playbtn p{
+    position: relative;
+    top: -120px;
+    right: -70px;
+    color: white;
+}
+.playbtn{
+    height: 0;
+}
+.button{
+    position: relative;
+}
